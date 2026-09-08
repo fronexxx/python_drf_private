@@ -1,0 +1,78 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+
+# Environment variables / секрети
+.env
+.env.local
+.env.*.local
+*.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# IDE / редактори
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Тести та coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Docker
+*.pid
+
+# Migrations (опційно — деякі команди їх не ігнорують)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Static files (якщо збираються через collectstatic)
+staticfiles/
+static/
+
+# Backup files
+*.bak
+
+/mysql_database
