@@ -1,16 +1,16 @@
-[project]
+[tool.poetry]
+package-mode = false
 name = "python-drf"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "fronexxx",email = "igorbotsii42@gmail.com"}
-]
-requires-python = "^3.14"
-dependencies = [
-    "djangorestframework (>=3.18.1,<4.0.0)"
-]
+authors = ["fronexxx <igorbotsii42@gmail.com>"]
 
+[tool.poetry.dependencies]
+python = ">=3.14, <4.0"
+Django = "^6.0.3"
+djangorestframework = "^3.17.1"
+mysqlclient = "^2.2.8"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
