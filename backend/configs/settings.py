@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     #my_apps
     'core',
     'apps.users',
+    'apps.pizzas',
+    'apps.pizza_shop',
 
 ]
 
