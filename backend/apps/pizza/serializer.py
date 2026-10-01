@@ -4,6 +4,10 @@ from apps.pizza.models import PizzaModel
 
 
 class PizzaSerializer(serializers.Serializer):
+    # class Meta:
+    #     model = PizzaModel
+    #     fields = ('id', 'name', 'size', 'price', 'created_at', 'updated_at', 'pizza_shop')
+
     id = serializers.IntegerField(read_only=True)
     name = serializers.CharField(max_length=20)
     size = serializers.IntegerField()
