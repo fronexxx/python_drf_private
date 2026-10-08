@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('api/pizza', include('apps.pizzas.urls')),
     path('api/pizza_shop', include('apps.pizza_shop.urls')),
+    path('api/contacts', include('apps.contacts.urls')),
 ]

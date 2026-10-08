@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'apps.users',
     'apps.pizzas',
     'apps.pizza_shop',
+    'apps.contacts',
 ]
 
 MIDDLEWARE = [
